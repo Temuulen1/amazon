@@ -1,6 +1,6 @@
 from selenium import webdriver
-print ('Logging into amazon')
-userEmail = input('temuulen_800@yahoo.com')
+print ('Enter Your Email PLS')
+userEmail = input('')
 print ('enter password')
 userPassword = input('')
 
@@ -17,3 +17,6 @@ emailElem.send_keys(userEmail)
 passwordElem = browser.find_element_by_id('ap_password')
 passwordElem.send_keys(userPassword)
 passwordElem.submit()
+
+
+SDSADSADS
